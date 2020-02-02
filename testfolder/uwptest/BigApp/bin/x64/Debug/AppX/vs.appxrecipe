@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\github\FrostyFunBox\testfolder\uwptest\BigApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-02-02T22:38:12.280</Modified>
+      <Modified>2020-02-02T23:35:01.975</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\github\FrostyFunBox\testfolder\uwptest\BigApp\bin\x64\Debug\BigApp.exe">
       <PackagePath>entrypoint\BigApp.exe</PackagePath>
-      <Modified>2020-02-02T22:38:11.974</Modified>
+      <Modified>2020-02-02T23:35:01.662</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -90,11 +90,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\github\FrostyFunBox\testfolder\uwptest\BigApp\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-02-02T22:38:11.879</Modified>
+      <Modified>2020-02-02T23:31:08.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\github\FrostyFunBox\testfolder\uwptest\BigApp\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-02-02T22:38:11.879</Modified>
+      <Modified>2020-02-02T23:31:08.315</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,7 +106,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\github\FrostyFunBox\testfolder\uwptest\BigApp\bin\x64\Debug\Core\BigApp.exe">
       <PackagePath>BigApp.exe</PackagePath>
-      <Modified>2020-02-02T22:38:12.277</Modified>
+      <Modified>2020-02-02T23:35:01.972</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

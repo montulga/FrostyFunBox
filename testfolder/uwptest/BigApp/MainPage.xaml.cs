@@ -26,11 +26,21 @@ namespace BigApp
     {
         int score = 0;
         int clickamount = 1;
+        int clickamount2 = 1;
         int upgradecost = 10;
         int timerincreasecost = 10;
         int atimertime = 2000;
         bool doauto = false;
         System.Timers.Timer aTimer;
+        double mult1amount = 1;
+        double mult2amount = 1;
+        double mult3amount = 1;
+        double mult4amount = 1;
+        int mult1cost = 10;
+        int mult2cost = 100;
+        int mult3cost = 1000;
+        int mult4cost = 1000;
+
 
 
         private async void ScreenUpdate()
@@ -41,11 +51,24 @@ namespace BigApp
             AutoToggle.Content = Convert.ToString(doauto);
             TimeIncrease.Content = Convert.ToString(atimertime);
             TimeCost.Text = Convert.ToString(timerincreasecost);
+            Multiplier1.Content = Convert.ToString(mult1amount);
+            Multiplier2.Content = Convert.ToString(mult2amount);
+            Multiplier3.Content = Convert.ToString(mult3amount);
+            Multiplier4.Content = Convert.ToString(mult4amount);
+            Multiplier1Cost.Text = Convert.ToString(mult1cost);
+            Multiplier2Cost.Text = Convert.ToString(mult2cost);
+            Multiplier3Cost.Text = Convert.ToString(mult3cost);
+            Multiplier4Cost.Text = Convert.ToString(mult4cost);
+            ClickAmount2.Text = Convert.ToString(clickamount2);
         }
 
+        private void recalcclick()
+        {
+            clickamount2 = Convert.ToInt32(clickamount * mult1amount * mult2amount * mult3amount * mult4amount);
+        }
         private void Clicked()
         {
-            score = score + clickamount;
+            score = score + clickamount2;
         }
         public MainPage()
         {
@@ -70,6 +93,7 @@ namespace BigApp
                 clickamount++;
                 score = score - upgradecost;
                 upgradecost = Convert.ToInt32(upgradecost * 1.1);
+                recalcclick();
                 ScreenUpdate();
             }
             
@@ -79,6 +103,17 @@ namespace BigApp
         {
             doauto = !doauto;
             ScreenUpdate();
+        }
+        private void Multiplier1_Click(object sender, RoutedEventArgs e)
+        {
+            if (score >= mult1cost)
+            {
+                score = score - mult1cost;
+                mult1amount = mult1amount + 0.5;
+                mult1cost = Convert.ToInt32(mult1cost * 2);
+                recalcclick();
+                ScreenUpdate();
+            }
         }
         private async void TimeIncrease_Click(object sender, RoutedEventArgs e)
         {
@@ -127,5 +162,39 @@ namespace BigApp
             }
         }
 
+        private void Multiplier2_Click(object sender, RoutedEventArgs e)
+        {
+            if (score >= mult2cost)
+            {
+                score = score - mult2cost;
+                mult2amount = mult2amount + 0.5;
+                mult2cost = Convert.ToInt32(mult2cost * 2);
+                recalcclick();
+                ScreenUpdate();
+            }
+        }
+        private void Multiplier3_Click(object sender, RoutedEventArgs e)
+        {
+            if (score >= mult3cost)
+            {
+                score = score - mult3cost;
+                mult3amount = mult3amount + 0.5;
+                mult3cost = Convert.ToInt32(mult3cost * 2);
+                recalcclick();
+                ScreenUpdate();
+            }
+        }
+
+        private void Multiplier4_Click(object sender, RoutedEventArgs e)
+        {
+            if (score >= mult4cost)
+            {
+                score = score - mult4cost;
+                mult4amount = mult4amount + 0.5;
+                mult4cost = Convert.ToInt32(mult4cost * 2);
+                recalcclick();
+                ScreenUpdate();
+            }
+        }
     }
 }

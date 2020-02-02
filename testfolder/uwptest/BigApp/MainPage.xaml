@@ -9,18 +9,27 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <Button x:Name ="bigbutton" Content="Click here" Margin="602,500,0,0" VerticalAlignment="Top" Height="190" Width="390" Click="BIG_Button_Click" FontSize="72"/>
-        <TextBlock x:Name="testbox" HorizontalAlignment="Left" Margin="520,196,0,0" Text="nam" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="294" FontSize="72" SelectionChanged="testbox_SelectionChanged"/>
-        <Button x:Name ="UPGRADE" Content="UPGRADE" Margin="984,201,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="194" UseLayoutRounding="False" Width="384" d:LayoutRounding="Auto" FontSize="72" Click="UPGRADE_Click">
+        <Button x:Name ="bigbutton" Content="Click here" Margin="386,211,0,0" VerticalAlignment="Top" Height="190" Width="390" Click="BIG_Button_Click" FontSize="72"/>
+        <TextBlock x:Name="testbox" HorizontalAlignment="Left" Margin="386,30,0,0" Text="nam" TextWrapping="Wrap" VerticalAlignment="Top" Height="135" Width="546" FontSize="72" SelectionChanged="testbox_SelectionChanged"/>
+        <Button x:Name ="UPGRADE" Content="UPGRADE" Margin="1061,81,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="194" UseLayoutRounding="False" Width="384" d:LayoutRounding="Auto" FontSize="72" Click="UPGRADE_Click">
             <Button.RenderTransform>
                 <CompositeTransform Rotation="24.695"/>
             </Button.RenderTransform>
         </Button>
-        <TextBlock x:Name="UpgradeCost" HorizontalAlignment="Left" Margin="1069,440,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="151" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
-        <TextBlock x:Name="ClickAmount" HorizontalAlignment="Left" Margin="141,118,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="151" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
-        <Button x:Name="AutoToggle" Content="text" Margin="420,34,0,0" VerticalAlignment="Top" Height="101" Width="276" FontSize="72" Click="AutoToggle_Click" />
-        <Button x:Name="TimeIncrease" Content="text" Margin="70,389,0,0" VerticalAlignment="Top" Height="101" Width="276" FontSize="72" Click="TimeIncrease_Click" />
-        <TextBlock x:Name="TimeCost" HorizontalAlignment="Left" Margin="159,533,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="151" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
+        <TextBlock x:Name="UpgradeCost" HorizontalAlignment="Left" Margin="1006,284,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="311" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
+        <TextBlock x:Name="ClickAmount" HorizontalAlignment="Left" Margin="10,10,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="151" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
+        <Button x:Name="AutoToggle" Content="text" Margin="10,374,0,0" VerticalAlignment="Top" Height="101" Width="276" FontSize="72" Click="AutoToggle_Click" />
+        <Button x:Name="TimeIncrease" Content="text" Margin="0,160,0,0" VerticalAlignment="Top" Height="101" Width="276" FontSize="72" Click="TimeIncrease_Click" />
+        <TextBlock x:Name="TimeCost" HorizontalAlignment="Left" Margin="10,266,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="317" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
+        <Button x:Name="Multiplier1" Content="text" Margin="1164,462,0,0" VerticalAlignment="Top" Height="101" Width="276" FontSize="72" Click="Multiplier1_Click" />
+        <Button x:Name="Multiplier2" Content="text" Margin="1164,588,0,0" VerticalAlignment="Top" Height="101" Width="276" FontSize="72" Click="Multiplier2_Click" />
+        <Button x:Name="Multiplier3" Content="text" Margin="1164,716,0,0" VerticalAlignment="Top" Height="101" Width="276" FontSize="72" Click="Multiplier3_Click" />
+        <Button x:Name="Multiplier4" Content="text" Margin="1164,856,0,0" VerticalAlignment="Top" Height="101" Width="276" FontSize="72" Click="Multiplier4_Click" />
+        <TextBlock x:Name="Multiplier1Cost" HorizontalAlignment="Left" Margin="852,462,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="303" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
+        <TextBlock x:Name="Multiplier2Cost" HorizontalAlignment="Left" Margin="852,588,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="303" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
+        <TextBlock x:Name="Multiplier3Cost" HorizontalAlignment="Left" Margin="852,716,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="303" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
+        <TextBlock x:Name="Multiplier4Cost" HorizontalAlignment="Left" Margin="852,856,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="303" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
+        <TextBlock x:Name="ClickAmount2" HorizontalAlignment="Left" Margin="230,829,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="106" Width="303" FontSize="72" SelectionChanged="UpgradeCost_SelectionChanged" />
 
     </Grid>
 </Page>
