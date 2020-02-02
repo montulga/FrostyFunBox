@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="BigApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BigApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button x:ConnectionId='2' Content="Click here" Margin="602,500,0,0" VerticalAlignment="Top" Height="190" Width="390"                      FontSize="72"/>
+        <TextBlock x:ConnectionId='3' x:Name="testbox" HorizontalAlignment="Left" Margin="520,196,0,0" Text="nam" TextWrapping="Wrap" VerticalAlignment="Top" Height="107" Width="294" FontSize="72"/>
+
+    </Grid>
+</Page>
+

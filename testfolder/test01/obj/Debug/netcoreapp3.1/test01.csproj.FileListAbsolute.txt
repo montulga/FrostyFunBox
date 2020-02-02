@@ -1,0 +1,11 @@
+D:\github\FrostyFunBox\testfolder\test01\bin\Debug\netcoreapp3.1\test01.exe
+D:\github\FrostyFunBox\testfolder\test01\bin\Debug\netcoreapp3.1\test01.deps.json
+D:\github\FrostyFunBox\testfolder\test01\bin\Debug\netcoreapp3.1\test01.runtimeconfig.json
+D:\github\FrostyFunBox\testfolder\test01\bin\Debug\netcoreapp3.1\test01.runtimeconfig.dev.json
+D:\github\FrostyFunBox\testfolder\test01\bin\Debug\netcoreapp3.1\test01.dll
+D:\github\FrostyFunBox\testfolder\test01\bin\Debug\netcoreapp3.1\test01.pdb
+D:\github\FrostyFunBox\testfolder\test01\obj\Debug\netcoreapp3.1\test01.csprojAssemblyReference.cache
+D:\github\FrostyFunBox\testfolder\test01\obj\Debug\netcoreapp3.1\test01.AssemblyInfoInputs.cache
+D:\github\FrostyFunBox\testfolder\test01\obj\Debug\netcoreapp3.1\test01.AssemblyInfo.cs
+D:\github\FrostyFunBox\testfolder\test01\obj\Debug\netcoreapp3.1\test01.dll
+D:\github\FrostyFunBox\testfolder\test01\obj\Debug\netcoreapp3.1\test01.pdb
